@@ -1,0 +1,24 @@
+{
+  "name": "vue2-cui",
+  "version": "1.0.0",
+  "description": "@vue3 for a ui design",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Rain120/vue3-cui.git"
+  },
+  "keywords": [
+    "vue3",
+    "ui-design",
+    "components"
+  ],
+  "author": "Rain120",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Rain120/vue3-cui/issues"
+  },
+  "homepage": "https://github.com/Rain120/vue3-cui#readme"
+}
