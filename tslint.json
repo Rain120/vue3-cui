@@ -5,7 +5,8 @@
   ],
   "linterOptions": {
     "exclude": [
-      "node_modules/**"
+      "node_modules/**",
+      "packages/**"
     ]
   },
   "rules": {
@@ -15,6 +16,11 @@
     "ordered-imports": false,
     "object-literal-sort-keys": false,
     "no-consecutive-blank-lines": false,
+    "no-console": false,
+    "no-duplicate-super": true,
+    "no-any": false,
+    "arrow-parens": false,
+    "only-arrow-functions": false,
     "semicolon": [
       false,
       "always"

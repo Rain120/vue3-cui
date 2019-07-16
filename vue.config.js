@@ -2,7 +2,7 @@ const path = require('path');
 
 module.exports = {
   devServer: {
-    port: 9527
+    port: 8888
   },
 
   pages: {
@@ -19,7 +19,7 @@ module.exports = {
       .set('~', path.resolve('packages'));
 
     config.module
-      .rule('/\.ts|.tsx$/')
+      .rule('ts')
       .include.add(/packages/).end()
       .include.add(/examples/).end()
       .use('ts-loader')
