@@ -4,15 +4,15 @@ const components = [
   Alert,
 ]
 
-const install  = function (Vue) {
+const install: any = function (Vue: any) {
   if (install.installed) {
     return;
   }
   components.map(component => Vue.component(component.name, component))
 }
 
-if (typeof window !== 'undefined' && window.Vue) {
-  install(window.Vue);
+if (typeof window !== 'undefined' && (<any>window).Vue) {
+  install((<any>window).Vue);
 }
 
 export default {

@@ -1,6 +1,6 @@
 import Alert from './src/main.vue';
 
-Alert.install = function(Vue) {
+(<any>Alert).install = function(Vue: any) {
   Vue.component(Alert.name, Alert);
 };
 

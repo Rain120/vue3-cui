@@ -12,6 +12,9 @@
     "sourceMap": true,
     "baseUrl": ".",
     "noImplicitAny": true,
+    "allowJs": true,
+    "noImplicitThis": true,
+    "pretty": true,
     "types": [
       "webpack-env",
       "jest"
@@ -21,17 +24,27 @@
         "examples/*"
       ]
     },
+    "typeRoots": [
+      "packages/typings"
+    ],
     "lib": [
       "esnext",
       "dom",
       "dom.iterable",
-      "scripthost"
+      "scripthost",
+      "es5",
+      "es6",
+      "es7",
+      "es2015.promise"
     ]
   },
   "include": [
     "examples/**/*.ts",
     "examples/**/*.tsx",
     "examples/**/*.vue",
+    "packages/**/*.ts",
+    "packages/**/*.tsx",
+    "packages/**/*.vue",
     "tests/**/*.ts",
     "tests/**/*.tsx"
   ],
