@@ -7,6 +7,10 @@ export default new Router({
   routes: [
     {
       path: '/',
+      redirect: '/alert'
+    },
+    {
+      path: '/alert',
       name: 'alert',
       // route level code-splitting
       // this generates a separate chunk (about.[hash].js) for this route
